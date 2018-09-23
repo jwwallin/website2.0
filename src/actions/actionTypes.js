@@ -19,5 +19,6 @@ export const actionKeys = {
   sponsor: 'SPONSOR',
   userAccount: 'USER_ACCOUNT',
   userRole: 'USER_ROLE',
-  enroll: 'ENROLL'
+  enroll: 'ENROLL',
+  auth: 'AUTH'
 }
