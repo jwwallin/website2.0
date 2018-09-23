@@ -7,6 +7,7 @@ import pages from './pageContentReducers'
 import sponsors from './sponsorReducers'
 import userAccounts from './userAccountReducers'
 import roles from './userRoleReducers'
+import enroll from './enrollReducers'
 
 const rootReducer =
   {
@@ -17,7 +18,8 @@ const rootReducer =
     pages,
     sponsors,
     userAccounts,
-    roles
+    roles,
+    enroll
   }
 
 export default rootReducer
